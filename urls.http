@@ -1,0 +1,12 @@
+###getall
+GET http://localhost:3000/getall
+### post
+POST http://localhost:3000/api/shorturl
+Content-Type: application/json
+
+{
+  "original_url": "https://www.freecodecamp.com"
+}
+
+### get\
+GET http://localhost:3000/api/shorturl/2
